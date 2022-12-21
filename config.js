@@ -4,7 +4,7 @@ const path = require('path');
 var logs = process.env.LOGS || 'development';
 
 var config = {};
-config.port = process.env.PORT || '8080';
+config.port = process.env.PORT || '4999';
 config.HUE_TOKEN = process.env.HUE_TOKEN;
 config.HUE_BRIDGE = process.env.HUE_BRIDGE;
 config.HUE_LIGHTID = process.env.HUE_LIGHTID || 1;
